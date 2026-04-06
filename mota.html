@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô tả cách làm - Trần Phước Vinh</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 30px; color: #333; max-width: 800px; margin: auto; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 25px; }
+        .step { background: #f9f9f9; padding: 15px; border-left: 5px solid #3498db; margin-bottom: 15px; border-radius: 4px; }
+        code { background: #eee; padding: 2px 5px; border-radius: 3px; font-weight: bold; }
+        .info { font-style: italic; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+    <h1>BÁO CÁO CÁCH THỰC HIỆN ĐỀ THI</h1>
+    <div class="info">
+        <p>Họ và tên: <strong>Trần Phước Vinh</strong></p>
+        <p>Mã số sinh viên: <strong>231A290104</strong></p>
+        <p>Đề tài: Xây dựng Movie Discovery App</p>
+    </div>
+
+    <h2>1. Phân tích và Thiết kế Giao diện (Bài 1)</h2>
+    <div class="step">
+        <ul>
+            <li>Sử dụng <strong>CSS Grid</strong> để chia bố cục thành 2 phần: Sidebar (250px) và Main Content (thay đổi linh hoạt).</li>
+            <li>Sử dụng <strong>CSS Variables</strong> để quản lý bảng màu cho chế độ Sáng/Tối giúp việc chuyển đổi mượt mà.</li>
+            <li>Thiết kế <strong>Responsive</strong> bằng Media Query để giao diện tự động thích ứng khi xem trên điện thoại.</li>
+        </ul>
+    </div>
+
+    <h2>2. Xử lý Logic và Dữ liệu (Bài 2)</h2>
+    <div class="step">
+        <ul>
+            <li>Viết hàm <code>displayMovies()</code> để render danh sách phim từ mảng dữ liệu JavaScript.</li>
+            <li>Xây dựng tính năng lọc đa năng: Người dùng có thể tìm kiếm theo tên phim kết hợp với lọc theo thể loại (Checkbox).</li>
+            <li>Áp dụng kỹ thuật <strong>Debounce</strong> (300-500ms) cho ô tìm kiếm để tối ưu hiệu năng, tránh việc lọc dữ liệu quá nhiều lần khi người dùng đang gõ phím.</li>
+        </ul>
+    </div>
+
+    <h2>3. Trải nghiệm người dùng (Bài 3)</h2>
+    <div class="step">
+        <ul>
+            <li>Xây dựng <strong>Modal popup</strong> để hiển thị chi tiết phim mà không cần chuyển trang.</li>
+            <li>Sử dụng <strong>localStorage</strong> để lưu lại lựa chọn Dark Mode của người dùng, đảm bảo giao diện không bị thay đổi khi tải lại trang.</li>
+        </ul>
+    </div>
+
+    <h2>4. Tối ưu và Triển khai (Bài 4)</h2>
+    <div class="step">
+        <ul>
+            <li>Sử dụng công cụ <strong>Squoosh / TinyPNG</strong> để nén toàn bộ hình ảnh trong thư mục <code>images/</code>, giúp giảm dung lượng file (từ ~90kB xuống còn ~10kB) mà vẫn giữ được độ nét.</li>
+            <li>Triển khai dự án lên hosting miễn phí (Vercel/Netlify) và cung cấp URL trong bài nộp.</li>
+        </ul>
+    </div>
+
+    <p style="text-align: center; margin-top: 50px;">--- HẾT ---</p>
+
+</body>
+</html>
